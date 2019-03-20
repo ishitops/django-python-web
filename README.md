@@ -1,6 +1,6 @@
 # django-python-web
 
-###Check version
+>Check version
 ```sh
   $python --version
   $pip --version
