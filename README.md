@@ -1,19 +1,33 @@
 # django-python-web
 
 ###Check version
-  >>python --version
-  >>pip --version
+```sh
+  $python --version
+  $pip --version
+```
 ###Install vertual envoirnment
-  >>pip install virtualenvwrapper
+```sh
+  $pip install virtualenvwrapper
+  ```
 (Linux : need to add command into bashrc)
 ###Creating envoirnment
-  >>mkvirtualenv <env-name>
+```sh
+  $mkvirtualenv <env-name>
+  ```
 ###Switching envoirnment
-  >>workon <envname>
+```sh
+  $workon <envname>
+  ```
 ###Installing Django
-  >>pip install django
+```sh
+  $pip install django
+  ```
 ###Create a project
-  >>django-admin startproject <project-name>
+```sh
+  $django-admin startproject <project-name>
+  ```
 ###Run application
-  >>python manage.py runserver
+```sh
+  $python manage.py runserver
+  ```
   
