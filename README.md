@@ -30,4 +30,20 @@
 ```sh
   $python manage.py runserver
   ```
-  
+ ##Add MySQL feature
+ >Install mysql plugin
+ ```sh
+  $pip install mysqlclient
+  ```
+>Migrate default sqls
+ ```sh
+  $python manage.py migrate
+  ```
+>Create super user to login in Admin pannel
+ ```sh
+  $python manage.py createsuperuser --username=<username> --email=<email>
+  ```
+>Start Application
+ ```sh
+  $python manage.py startapp <appname>
+  ```
